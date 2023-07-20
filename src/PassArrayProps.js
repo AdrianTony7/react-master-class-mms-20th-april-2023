@@ -13,6 +13,7 @@ function Car(props){
     )
 }
 
+// array
 let carProps = ["car name: Venza, ", "color: yellow, ", 
     "Model: Cardillac, ", "Manufactured on: 2022"];
 

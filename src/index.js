@@ -13,7 +13,7 @@ import MyNames from './MyNames';
 import MyFruits from './MyFruits';
 import TopLevelTag from './TopLevelTag';
 import Gallery from './Gallery';
-import PassDataProps from './PassDataPropsExt';
+import PassDataProps from './PassDataProps';
 import PassVariableProps from './PassVariableProps';
 import TenaryOperator from './TenaryOperator';
 import PassArrayProps from './PassArrayProps';
@@ -38,6 +38,11 @@ import EventHandler1 from './EventHandler1';
 import EventHandler2 from './EventHandler2';
 import StateComponentMemory from './StateComponentMemory';
 import InputState from './InputState';
+import SharingStateBtwComponents_Ex1 from './SharingStateBtwComponents_Ex1';
+import SharingStateBtwComponents_Ex2 from './SharingStateBtwComponents_Ex2';
+import InputStateDataBinding from './InputStateDataBinding';
+import NumberCountBinding from './NumberCountBinding';
+import MyClassMembers from './MyClassMembers';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -45,10 +50,11 @@ root.render(
 
      {/* <VObject/> */}
      {/* <Message2/> */}
-     {/* <Com~poundInterestAPI/> */}
+     {/* <CompoundInterestAPI/> */}
      {/* <SimpleComponent/> */}
      {/* <MyNames/> */}
      {/* <MyFruits/> */}
+     {/* <MyClassMembers/> */}
      {/* <TopLevelTag/> */}
      {/* <Gallery/> */}
      {/* <PassDataProps/> */}
@@ -60,7 +66,7 @@ root.render(
      {/* <Event/> */}
      {/* <EventArgument/> */}
      {/* <TodoList/> */}
-     {/* <Themestyling/> */}
+     <Themestyling/>
      {/* <PassObject/> */}
      {/* <Gallery1/> */}
      {/* <EventVariableArgument/> */}
@@ -76,8 +82,11 @@ root.render(
      {/* <EventHandler1 /> */}
      {/* <EventHandler2 /> */}
      {/* <StateComponentMemory/> */}
-     <InputState/>
-
+     {/* <InputState/> */}
+     {/* <SharingStateBtwComponents_Ex1/> */}
+     {/* <SharingStateBtwComponents_Ex2/> */}
+     {/* <InputStateDataBinding/> */}
+     {/* <NumberCountBinding/> */}
 </React.StrictMode>
 );
 

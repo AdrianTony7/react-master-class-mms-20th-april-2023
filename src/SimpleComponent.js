@@ -2,24 +2,14 @@
 
 
 
-function FirstName(){
-    return "CHRISTIAN";
-}
+const FirstName = () => "CHRISTIAN";
 
-function Surname(){
-    return "UCHENDU";
-}
+const Surname = () => "UCHENDU";
 
-function Middlename(){
-    return "WAGGIO";
-}
+const Middlename = () =>"WAGGIO";
 
-function Village(){
-    return "OSHODI";
-}
+const Village = () => "OSHODI";
 
-function SimpleComponent(){
-    return FirstName()+' '+Surname()+' '+Middlename()+' '+Village();
-}
+const SimpleComponent = () =>FirstName()+' '+Surname()+' '+Middlename()+' '+Village();
 
 export default SimpleComponent;

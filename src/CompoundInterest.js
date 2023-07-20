@@ -9,8 +9,8 @@
 // A = P*(Math.pow((1+r/n),nr));
 
 // React Component Creation
-export default function CompoundInterest(P, r, n, t){
+const compoundInterest = (P, r, n, t) =>{
     return P*(Math.pow((1+r/n),t));
 }
 
-// export default CompoundInterest;
+export default compoundInterest;

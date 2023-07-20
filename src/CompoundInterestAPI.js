@@ -8,17 +8,13 @@
 // A = P(Math.pow((1+r/n),nr));
 
 // function CompoundInterest(P, r, n, nr)
-import CompoundInterest from "./CompoundInterest"
+import compoundInterest from "./compoundInterest"
 
-let P = 500000;
-let r = 5.100;
-let n = 12;
-let t = 5;
+import {P, r, n, t, nCom} from "./compoundInterestVariable"
 
-let nCom = 7;
-
-function CompoundInterestAPI(){
-    let fResult = (Math.round(nCom * CompoundInterest(P, r, n, t))).toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
+    const CompoundInterestAPI = () =>{
+    let fResult = (Math.round(nCom * compoundInterest(P, r, n, t)))
+    .toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
     return 'The Compound Interest for '+nCom
     +' Companies in '+t+'years is = '+fResult;
 }

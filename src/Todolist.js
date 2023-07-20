@@ -1,17 +1,18 @@
 import React from "react";
 
-export default function TodoList() {
-    return (
-      <ul style={
-        {
-            backgroundColor: 'black',
-            color: 'pink'
-        }
-      }>
-        <li>Improve the videophone</li>
-        <li>Prepare aeronautics lectures</li>
-        <li>Work on the alcohol-fuelled engine</li>
-      </ul>
-    );
+  const myStyle = 
+  {
+    backgroundColor: 'black', color: 'pink'
   }
-  
+
+  const TodoList = () => {
+      return(
+        <ul style={myStyle}>
+          <li>Improve the videophone</li>
+          <li>Prepare aeronautics lectures</li>
+          <li>Work on the alcohol-fuelled engine</li>
+        </ul>
+      );
+    }
+    
+  export default TodoList;

@@ -1,6 +1,6 @@
 import React from "react";
 
-function Profile1() {
+const Profile1 = () => {
   return (
     <img
       src="html.png"
@@ -9,7 +9,7 @@ function Profile1() {
   );
 }
 
-function Profile2() {
+const Profile2 = () => {
   return (
     <img 
     src="logo192.png" 
@@ -17,7 +17,7 @@ function Profile2() {
   );
 }
 
-function Profile3() {
+const Profile3 = () => {
   return (
     <img
       src="css3.png"
@@ -26,7 +26,7 @@ function Profile3() {
   );
 }
 
-export default function Gallery() {
+const Gallery = () => {
   return (
     <section>
       <h1>Amazing scientists</h1>
@@ -36,3 +36,5 @@ export default function Gallery() {
     </section>
   );
 }
+
+export default Gallery;

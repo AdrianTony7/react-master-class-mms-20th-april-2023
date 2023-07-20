@@ -34,7 +34,7 @@ const madrid =
     player5:"Claude" 
 };
 
-const JersyNumbers = 
+const playerNumbers = 
 {
     Jersy1:"Num 001", 
     Jersy2:"Num 002", 
@@ -46,7 +46,11 @@ const JersyNumbers =
     return(
         <>
             <AboutFootballTeams player = {arsenal} 
-            jersey = {JersyNumbers} />
+            jersey = {playerNumbers} />
+            <br/>
+            <AboutFootballTeams player = {madrid} 
+            jersey = {playerNumbers} />
+            <br/>
         </>
     );
 }

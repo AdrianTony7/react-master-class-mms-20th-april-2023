@@ -1,13 +1,13 @@
 //
-import Message from './Message';
+import message from './message';
 
-let firstName = "Omiete";
-let lastName = "Smith";
+let firstName = "Reger";
+let lastName = "Daffodil";
 let age = 20;   
 
-function Message2(){
+const Message2 = () =>{
     
-    return Message(firstName, lastName, age);
+    return message(firstName, lastName, age);
 }
 
 export default Message2;
