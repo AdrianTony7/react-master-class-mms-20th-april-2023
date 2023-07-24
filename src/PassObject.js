@@ -1,18 +1,17 @@
 import React from 'react';
 
-function getImageUrl(person, size = 's') {
+const getImageUrl = (person, extra = 's') => {
     return (
       'https://i.imgur.com/' +
       person.imageId +
-      size +
+      extra +
       '.jpg'
     );
   }
   
-function Avatar({ person, size }) {
+const Avatar = ({person, size}) =>{
   return (
     <img
-      className="avatar"
       src={getImageUrl(person)}
       alt={person.name}
       width={size}
@@ -21,7 +20,7 @@ function Avatar({ person, size }) {
   );
 }
 
-export default function PassObject() {
+const PassObject = () => {
   return (
     <div>
       <Avatar
@@ -48,3 +47,5 @@ export default function PassObject() {
     </div>
   );
 }
+
+export default PassObject;

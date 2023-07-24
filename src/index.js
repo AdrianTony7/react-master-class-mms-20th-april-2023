@@ -66,9 +66,9 @@ root.render(
      {/* <Event/> */}
      {/* <EventArgument/> */}
      {/* <TodoList/> */}
-     <Themestyling/>
+     {/* <Themestyling/> */}
      {/* <PassObject/> */}
-     {/* <Gallery1/> */}
+     <Gallery1/>
      {/* <EventVariableArgument/> */}
      {/* <ExternalCSS/> */}
      {/* <VariableObjectMap/> */}
