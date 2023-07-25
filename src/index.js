@@ -25,6 +25,7 @@ import TodoList from './Todolist';
 import Themestyling from './Themestyling';
 import PassObject from './PassObject';
 import Gallery1 from './Gallery1';
+import Gallery2 from './Gallery2';
 import EventVariableArgument from './EventVariableArgument';
 import ExternalCSS from './ExternalCSS';
 import VariableObjectMap1 from './VariableObjectMap1';
@@ -44,6 +45,8 @@ import InputStateDataBinding from './InputStateDataBinding';
 import NumberCountBinding from './NumberCountBinding';
 import MyClassMembers from './MyClassMembers';
 
+
+// SPA ====> Single Page Application 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -68,7 +71,8 @@ root.render(
      {/* <TodoList/> */}
      {/* <Themestyling/> */}
      {/* <PassObject/> */}
-     <Gallery1/>
+     {/* <Gallery1/> */}
+     <Gallery2/>
      {/* <EventVariableArgument/> */}
      {/* <ExternalCSS/> */}
      {/* <VariableObjectMap/> */}
