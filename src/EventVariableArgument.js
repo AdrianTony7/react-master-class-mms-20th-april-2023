@@ -22,7 +22,7 @@ export default function EventVariableArgument(){
     return (
         <div>
             <button style={utilities.styleButton} 
-            onClick={()=>doSomething(utilities.alerter.alert1)}>
+            onClick={doSomething(utilities.alerter.alert1)}>
                 Click this
             </button>
             <button style={utilities.styleButton} 

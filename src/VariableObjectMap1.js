@@ -159,7 +159,7 @@ function StartMap(){
 		})
 }
 
-function MappedData(){
+function MappedTableData(){
 	return (
 		<>
 			<Table hover>
@@ -178,7 +178,8 @@ function MappedData(){
 					<th>MARITAL STATUS</th>					
 				</thead>
 				<tbody>
-					{StartMap()}
+					{/* {StartMap()} */}
+					<StartMap/>
 				</tbody>
 			</Table>
 		</>
@@ -197,7 +198,7 @@ function VariableObjectMap1(){
 					CLASS LIST OF LEGENDS
 				</h1>
 			</div>
-			<MappedData/>
+			<MappedTableData/>
 		</div>
 	)
 }

@@ -2,7 +2,6 @@ import React from "react";
 import Table from 'react-bootstrap/Table';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
 const imageList = [
     {
         'id':'staff001',
@@ -60,8 +59,8 @@ const imageList = [
     }    
 ]
 
- const staffList = imageList.map((staff)=>{
-    return(
+ const StaffList = () =>(
+    imageList.map((staff)=>(
         <>
             <li style={{
                 listStyle:'none', 
@@ -91,13 +90,20 @@ const imageList = [
             </p>
             </li>
         </>
-    )
-});
+    ))
+ )
+ 
+
+
+ const DoArrow = () => "srvrsbvrsv"; 
 
 export default function MapImageList(){
     return(
         <div>
-            <ul>{staffList}</ul>
+            <ul>
+                {StaffList()}
+                {/* <StaffList/> */}
+            </ul>
         </div>
     );
 }

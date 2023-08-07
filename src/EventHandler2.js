@@ -1,4 +1,5 @@
 import React from "react";
+import { P } from "./compoundInterestVariable";
 
 // function Button({ onClick, children }) {
 //     return (
@@ -8,6 +9,7 @@ import React from "react";
 //     );
 //   }
   
+
   function PlayButton({ movieName }) {
     function handlePlayClick() {
       alert(`Playing ${movieName}!`);

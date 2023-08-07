@@ -38,7 +38,8 @@ export default function VariableObjectMap(){
 				</tr>
 			</thead>
 			<tbody>
-				{InsertTable()}
+				{/* {InsertTable()} */}
+				<InsertTable/>
 			</tbody>
 
 		</Table>

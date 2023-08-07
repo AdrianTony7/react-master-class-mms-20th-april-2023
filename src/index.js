@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import MySettingUp from './MySettingUp';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 import MyBioData from './jet';
 import Message2 from './Message2';
 import VariableObjectMap from './VariableObjectMap';
@@ -32,25 +32,18 @@ import VariableObjectMap1 from './VariableObjectMap1';
 import VariableObjectMapProper from './VariableObjectMapProper';
 import VariableObjectMapFilter from './VariableObjectMapFilter';
 import MapImageList from './MapImageList';
-import Form1_useState from './Form1_useState';
-import Form_Submission from './Form_Submission';
-import MultipleInputFieldForm from './MultipleInputFieldsForm';
 import EventHandler1 from './EventHandler1';
 import EventHandler2 from './EventHandler2';
-import StateComponentMemory from './StateComponentMemory';
-import InputState from './InputState';
-import SharingStateBtwComponents_Ex1 from './SharingStateBtwComponents_Ex1';
-import SharingStateBtwComponents_Ex2 from './SharingStateBtwComponents_Ex2';
-import InputStateDataBinding from './InputStateDataBinding';
-import NumberCountBinding from './NumberCountBinding';
 import MyClassMembers from './MyClassMembers';
-
+import AddInteraction_1 from './AddInteraction_1';
+import LogicalANDOperator from './LogicalANDOperator';
 
 // SPA ====> Single Page Application 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
 
+     {/* <MySettingUp/>  */}
      {/* <VObject/> */}
      {/* <Message2/> */}
      {/* <CompoundInterestAPI/> */}
@@ -72,7 +65,7 @@ root.render(
      {/* <Themestyling/> */}
      {/* <PassObject/> */}
      {/* <Gallery1/> */}
-     <Gallery2/>
+     {/* <Gallery2/> */}
      {/* <EventVariableArgument/> */}
      {/* <ExternalCSS/> */}
      {/* <VariableObjectMap/> */}
@@ -80,23 +73,19 @@ root.render(
      {/* <VariableObjectMapProper/> */}
      {/* <VariableObjectMapFilter/> */}
      {/* <MapImageList/> */}
-     {/* <Form1_useState/> */}
-     {/* <Form_Submission/> */}
-     {/* <MultipleInputFieldForm/> */}
-     {/* <EventHandler1 /> */}
-     {/* <EventHandler2 /> */}
-     {/* <StateComponentMemory/> */}
-     {/* <InputState/> */}
-     {/* <SharingStateBtwComponents_Ex1/> */}
-     {/* <SharingStateBtwComponents_Ex2/> */}
-     {/* <InputStateDataBinding/> */}
-     {/* <NumberCountBinding/> */}
+     {/* <EventArgument/> */}
+     {/* <EventVariableArgument/> */}
+     {/* <EventHandler1/> */}
+     {/* <EventHandler2/> */}
+     {/* <AddInteraction_1/> */}
+     <LogicalANDOperator/>
+  
 </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// reportWebVitals();
 
 

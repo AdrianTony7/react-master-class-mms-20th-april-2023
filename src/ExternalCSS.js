@@ -1,5 +1,5 @@
 import React from "react";
-import "./ExternalCSS.css"
+import "./ExternalCSS1.css"
 
 
 
@@ -10,6 +10,7 @@ function Heading(){
         </p>
     )
 }
+
 function WriteUp1(){
     return(
         <p>

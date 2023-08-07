@@ -37,7 +37,7 @@ export default function EventHandler1(){
              <br></br>
             {/* Solution3 */}
             <button onClick={function handleButtonEvent({e = 'Christ'}){
-                alert({e},`Life and Samuel`)
+                alert(`${e}, Life and Samuel`)
             }}>
                 CLICK ME WITH SOLUTION 3
             </button>

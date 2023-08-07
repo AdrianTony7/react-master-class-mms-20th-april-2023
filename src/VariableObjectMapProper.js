@@ -158,7 +158,7 @@ const StartMap =  arrayStudentData.map((student)=>{
     })
 
 
-function MappedData(){
+function MappedTableData(){
 	return (
 		<>
 			<Table hover>
@@ -196,7 +196,7 @@ function VariableObjectMapProper(){
 					CLASS LIST OF LEGENDS
 				</h1>
 			</div>
-			<MappedData/>
+			<MappedTableData/>
 		</div>
 	)
 }
